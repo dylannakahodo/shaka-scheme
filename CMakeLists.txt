@@ -49,7 +49,8 @@ set(SOURCE_FILES
         src/shaka_scheme/system/base/String.cpp
         src/shaka_scheme/system/base/Symbol.cpp
         src/shaka_scheme/system/base/DataPair.cpp
-        src/shaka_scheme/system/exceptions/MissingImplementationException.hpp src/shaka_scheme/system/base/Environment.cpp src/shaka_scheme/system/base/Environment.hpp)
+         src/shaka_scheme/system/base/Environment.cp
+         src/shaka_scheme/system/base/Closure.cpp
 add_library(${SHAKA_SCHEME_LIBRARY_NAME} SHARED ${SOURCE_FILES})
 target_compile_options(${SHAKA_SCHEME_LIBRARY_NAME} PRIVATE -Wall -Wextra
         -pedantic)
